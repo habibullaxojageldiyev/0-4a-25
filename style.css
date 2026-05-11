@@ -1,0 +1,43 @@
+#img1 {
+    display: flex;           /* Flexbox rejimini yoqamiz */
+    justify-content: center; /* Gorizontal o'rtaga olish */
+    align-items: center;     /* Vertikal o'rtaga olish */
+    width: 100%;             /* Konteyner butun ekranni egallashi uchun */
+    height: 200px;           /* Rasmingiz atrofidagi bo'sh joy balandligi */
+    margin-bottom: 10px;     /* Pastdagi yozuvlardan masofa qoldirish uchun */
+}
+
+#img1 img {
+    width: 200px;            /* Rasmning kengligini shu yerda kichraytirasiz */
+    height: auto;            /* Proporsiya buzilmasligi uchun */
+    object-fit: contain;     /* Rasm shakli buzilmasligini ta'minlaydi */
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+h3 {
+    color: yellow;
+    -webkit-text-stroke: 1.5px blue;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.p0 {
+    font-family: Noto Serif;
+    height: 240px;
+    width: 200px;
+    border: 2px solid green;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
