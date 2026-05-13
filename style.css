@@ -6,7 +6,9 @@
     height: 200px;           /* Rasmingiz atrofidagi bo'sh joy balandligi */
     margin-bottom: 10px;     /* Pastdagi yozuvlardan masofa qoldirish uchun */
 }
-
+body {
+    bacground-color: green
+}
 #img1 img {
     width: 200px;            /* Rasmning kengligini shu yerda kichraytirasiz */
     height: auto;            /* Proporsiya buzilmasligi uchun */
